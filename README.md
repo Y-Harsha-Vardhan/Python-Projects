@@ -1,18 +1,21 @@
 # Python-Projects
+
 A collection of practical Python utilities built between 2024–Present:
 
 * 🪟 **Windows Opacity Utility** – Adjusts the transparency of any running application to improve multitasking and focus.
 * 📊 **Codeforces Progress Tracker** – Fetches and displays all problems solved by a user, making it easy to track competitive programming progress.
 * 📄 **Dark PDF Converter** – Transforms PDFs into a dark-themed format to reduce eye strain during extended reading.
+* 🧩 **Image-Based Sudoku Solver** – Solves Sudoku puzzles from images using computer vision and machine learning.
 
 ---
 
 ## 🚀 Setup
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/assorted-python-projects.git
-   cd assorted-python-projects
+    ```bash
+    git clone https://github.com/<your-username>/assorted-python-projects.git
+    cd assorted-python-projects
+    ```
 2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
@@ -36,4 +39,7 @@ A collection of practical Python utilities built between 2024–Present:
 - **Description**: Converts PDFs into a dark-themed format to reduce eye strain during extended reading.
 - **Usage**: Run the script with the input PDF file as an argument. Optionally, specify an output file name.
 
----
+### 🧩 Image-Based Sudoku Solver
+- **Description**: Solves Sudoku puzzles from images using computer vision and machine learning techniques.
+- **Usage**: Provide an image of a Sudoku puzzle as input, and the script will detect and solve the puzzle, displaying the solution.
+
